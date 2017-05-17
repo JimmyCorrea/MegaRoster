@@ -1,19 +1,14 @@
 body {
   font-family: 'Open Sans', sans-serif;
   padding: 1rem;
+  background-image: url("https://fashionastyjake.files.wordpress.com/2011/02/mjet-thumb-320x365-9193.jpg?w=640");
 }
 
 h1 {
-  font: 800 64px/64px 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-h1 span {
-  font: 400 60px/60px 'gentium book basic';
-  font-style: italic;
+  font: 800 64px/64px 'gentium book basic';
   text-transform: none;
-  margin: 0 4px 0 -10px;
+  text-align: center;
+  color: gold;
 }
 
 section {
@@ -49,7 +44,7 @@ dt {
   width: 100px;
   text-align: right;
   font-weight: bold;
-  color: green;
+  color: gold;
 }
 dt::after {
   content: ":";
@@ -57,8 +52,12 @@ dt::after {
 dd {
   margin: 0 0 0 110px;
   padding: 0 0 0.5em 0;
+  font-weight: bold;
+  color: gold;
+
 }
 
-dl:nth-of-type(even) {
-  background-color: WhiteSmoke;
+label {
+    color: gold;
 }
+
